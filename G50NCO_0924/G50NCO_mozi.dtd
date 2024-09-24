@@ -1,0 +1,7 @@
+<!ELEMENT mozi (film*)>
+<!ELEMENT film (cim+, rendező+, ev+)>
+<!ELEMENT cim (#PCDATA)>
+<!ELEMENT rendező (#PCDATA)>
+<!ELEMENT ev (#PCDATA)>
+<!ATTLIST film
+  mufaj (akcio | horror | vigjatek) #REQUIRED>

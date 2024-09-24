@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mozi SYSTEM "G50NCO_mozi.dtd">
+<mozi>
+  <film mufaj="horror">
+    <cim>Evil dead</cim>
+    <rendező>Sam Raimi</rendező>
+    <ev>2012</ev>
+  </film>
+</mozi>

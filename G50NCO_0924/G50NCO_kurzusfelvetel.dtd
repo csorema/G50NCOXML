@@ -1,0 +1,27 @@
+<!ELEMENT G50NCO_kurzusfelvetel (hallgato, kurzusok)>
+<!ATTLIST G50NCO_kurzusfelvetel
+    tanév CDATA #REQUIRED
+    egyetem CDATA #REQUIRED>
+
+<!ELEMENT hallgato (hallgato*)>
+<!ELEMENT hallgato (#PCDATA)>
+<!ATTLIST hallgato
+    hnev CDATA #REQUIRED
+    szulev CDATA #REQUIRED
+    szak CDATA #REQUIRED
+    evf CDATA #REQUIRED>
+
+<!ELEMENT kurzusok (kurzus*)>
+
+<!ELEMENT kurzus (#PCDATA | kurzusnev | kredit | hely | idopont | oktato | oraado?)>
+<!ATTLIST kurzus
+    id CDATA #REQUIRED
+    jovahagyas (igen | nem) "nem"
+    nyelv CDATA #REQUIRED>
+
+<!ELEMENT kurzusnev (#PCDATA)>
+<!ELEMENT kredit (#PCDATA)>
+<!ELEMENT hely (#PCDATA)>
+<!ELEMENT idopont (#PCDATA)>
+<!ELEMENT oktato (#PCDATA)>
+<!ELEMENT oraado (#PCDATA)>

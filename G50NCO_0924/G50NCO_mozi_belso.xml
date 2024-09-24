@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mozi [
+  <!ELEMENT mozi (film*)>
+
+  <!ELEMENT film (cim+, rendező+, ev+)>
+
+  <!ELEMENT cim (#PCDATA)>
+  <!ELEMENT rendező (#PCDATA)>
+  <!ELEMENT ev (#PCDATA)>
+
+  <!ATTLIST film
+    mufaj (akcio | horror | vigjatek) #REQUIRED>
+]>
+<mozi>
+  <film mufaj="horror">
+    <cim>Evil dead</cim>
+    <rendező>Sam Raimi</rendező>
+    <ev>2012</ev>
+  </film>
+</mozi>
