@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vendeglatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi.noNamespaceSchemaLocation="JA_XMLSchema.xsd">
+
+<!-- Ettermek -->
+<etterem ekod="e1">
+	<nev>Trófea</nev>
+	<cim>
+		<varos>Budapest</varos>
+		<utca>Videgrádi</utca>
+		<hazszam>34</hazszam>
+	</cim>
+	<csillag>5</csillag>
+</etterem>
+
+<etterem ekod="e2">
+	<nev>Babilon</nev>
+	<cim>
+		<varos>Budapest</varos>
+		<utca>Váci utca</utca>
+		<hazszam>54</hazszam>
+	</cim>
+	<csillag>3</csillag>
+</etterem>
+
+<etterem ekod="e3">
+	<nev>Harcsafeszek</nev>
+	<cim>
+		<varos>Harsány</varos>
+		<utca>Fenyő utca</utca>
+		<hazszam>43</hazszam>
+	</cim>
+	<csillag>4</csillag>
+</etterem>
+
+<!-- Foszakacsok -->
+<foszakacs fkod="f1" e_f="e1">
+	<nev>Havas Péter</nev>
+	<eletkor>35</eletkor>
+	<vegzettseg>Szakközépiskla</vegzettseg>
+	<vegzettseg>Institut Paul Bocuse</vegzettseg>
+</foszakacs>
+
+
+<!-- Szakacsok -->
+<szakacs szkod="sz1" e_sz="e1">
+	<nev>Ötlet Elek</nev>
+	<reszleg>Saucier</reszleg>
+	<vegzettseg>Szakközépiskla</vegzettseg>
+	<vegzettseg>Le Cordon Bleu</vegzettseg>
+	<vegzettseg>Institut Paul Bocuse</vegzettseg>
+</szakacs>
+
+<!-- Gyakornokok -->
+<gyakornok gykod="gy1" e_gy="e1">
+	<nev>Bordás Dávid</nev>
+	<gyakorlat>
+		<kezdete>2024.10.08.</kezdete>
+		<idotartama>2 hónap</idotartama>
+	</gyakorlat>
+	<muszak>Délelőtt</muszak>
+	<muszak>Este</muszak>
+</gyakornok>
+
+
+<!-- Vendégek -->
+<vendeg vkod="v1">
+	<nev>Fekete Márton</nev>
+	<eletkor>23</eletkor>
+	<cim>
+		<varos>Miskolc</varos>
+		<utca>Szentgyörgy út</utca>
+		<hazszam>10</hazszam>
+	</cim>
+</vendeg>
+
+
+<!-- Rendelesek-->
+<rendeles e_v_e="e1" e_v_V="v1">
+	<osszeg>7000</osszeg>
+	<etel>Vadas</etel>
+</rendeles>
+
+</vendeglatas>
