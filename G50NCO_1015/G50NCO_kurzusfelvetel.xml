@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<G50NCO_kurzusfelvetel tanév="2024/25" egyetem="Miskolci Egyetem">
+    <hallgato>
+        <hallgato hnev="Csőre Margaréta" szulev="2001" szak="Gazdaságinformatikus" evf="2024/25"/>
+        <hallgato hnev="Nagy Anna" szulev="2001" szak="Programtervező" evf="2024/25"/>
+    </hallgato>
+    <kurzusok>
+        <kurzus id="NEPTUN001" jovahagyas="igen" nyelv="magyar">
+            <kurzusnev>Adatkezelés XML-ben</kurzusnev>
+            <kredit>5</kredit>
+            <hely>IT épület, 103-as terem</hely>
+            <idopont>Hétfő 12:00-14:00</idopont>
+            <oktato>Dr. Bednarik László</oktato>
+            <oraado>Dr. Mileff Péter</oraado>
+        </kurzus>
+        <kurzus id="NEPTUN002" jovahagyas="nem" nyelv="angol">
+            <kurzusnev>Korszerű információs technológiák</kurzusnev>
+            <kredit>4</kredit>
+            <hely>IT épület, 101-es terem</hely>
+            <idopont>Kedd 10:00-12:00</idopont>
+            <oktato>Dr. Árvai László</oktato>
+            <oraado>Dr. Johász János</oraado>
+        </kurzus>
+        <kurzus id="NEPTUN003" jovahagyas="igen" nyelv="magyar">
+            <kurzusnev>Web-es alkalmazások (C#)</kurzusnev>
+            <kredit>6</kredit>
+            <hely>IT épület, 102-es terem</hely>
+            <idopont>Szerda 14:00-16:00</idopont>
+            <oktato>Dr. Mileff Péter</oktato>
+        </kurzus>
+        <kurzus id="NEPTUN004" jovahagyas="nem" nyelv="angol">
+            <kurzusnev>Mesterséges intelligencia alapok</kurzusnev>
+            <kredit>5</kredit>
+            <hely>IT épület, 104-es terem</hely>
+            <idopont>Péntek 10:00-12:00</idopont>
+            <oktato>Dr. Fazekas Levente</oktato>
+        </kurzus>
+    </kurzusok>
+</G50NCO_kurzusfelvetel>
