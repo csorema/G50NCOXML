@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE CsoreMargareta_orarend SYSTEM "Neptunkod_orarend.dtd">
+
+<CsoreMargareta_orarend>
+  <ora id="1" tipus="előadás">
+    <targy>Korszerű információs technológiák</targy>
+    <idopont>
+      <nap>Hétfő</nap>
+      <tol>12:00</tol>
+      <ig>14:00</ig>
+    </idopont>
+    <helyszin>IT épület, 103-es terem</helyszin>
+    <oktato>Dr. Árvai László</oktato>
+    <oraado>Nagy János</oraado>
+    <szak>Gazdaságinformatikus</szak>
+  </ora>
+
+  <ora id="1" tipus="gyakorlat">
+    <targy>Üzleti statisztika</targy>
+    <idopont>
+      <nap>Kedd</nap>
+      <tol>08:00</tol>
+      <ig>10:00</ig>
+    </idopont>
+    <helyszin>A1/128-as terem</helyszin>
+    <oktato>Pálné Gecse Dóra</oktato>
+    <oraado>Nagy János</oraado>
+    <szak>Gazdaságinformatikus</szak>
+  </ora>
+
+  <ora id="1" tipus="elmélet">
+    <targy>Adatkezelés XML-ben</targy>
+    <idopont>
+      <nap>Kedd</nap>
+      <tol>10:00</tol>
+      <ig>12:00</ig>
+    </idopont>
+    <helyszin>IT épület, 103-es terem</helyszin>
+    <oktato>Dr. Bednarik László</oktato>
+    <oraado>Nagy János</oraado>
+    <szak>Gazdaságinformatikus</szak>
+  </ora>
+
+  <ora id="1" tipus="gyakorlat">
+    <targy>Adatkezelés XML-ben</targy>
+    <idopont>
+      <nap>Kedd</nap>
+      <tol>12:00</tol>
+      <ig>14:00</ig>
+    </idopont>
+    <helyszin>IT épület, 103-es terem</helyszin>
+    <oktato>Dr. Bednarik László</oktato>
+    <oraado>Nagy János</oraado>
+    <szak>Gazdaságinformatikus</szak>
+  </ora>
+
+  <ora id="1" tipus="elmélet">
+    <targy>Web-es alkalmazások (C#)</targy>
+    <idopont>
+      <nap>Kedd</nap>
+      <tol>14:00</tol>
+      <ig>16:00</ig>
+    </idopont>
+    <helyszin>IT épület, 101-es terem</helyszin>
+    <oktato>Dr. Árvai László</oktato>
+    <oraado>Nagy János</oraado>
+    <szak>Gazdaságinformatikus</szak>
+  </ora>
+
+  <ora id="1" tipus="gyakorlat">
+    <targy>Web-es alkalmazások (C#)</targy>
+    <idopont>
+      <nap>Kedd</nap>
+      <tol>16:00</tol>
+      <ig>18:00</ig>
+    </idopont>
+    <helyszin>IT épület, 101-es terem</helyszin>
+    <oktato>Dr. Mileff Péter</oktato>
+    <oraado>Nagy János</oraado>
+    <szak>Gazdaságinformatikus</szak>
+  </ora>
+
+  <ora id="1" tipus="előadás">
+    <targy>Lean alapismeretek</targy>
+    <idopont>
+      <nap>Szerda</nap>
+      <tol>08:00</tol>
+      <ig>10:00</ig>
+    </idopont>
+    <helyszin>I. előadó, A2 fsz.</helyszin>
+    <oktato>Dr. Johász János</oktato>
+    <oraado>Nagy János</oraado>
+    <szak>Gazdaságinformatikus</szak>
+  </ora>
+
+  <ora id="1" tipus="gyakorlat">
+    <targy>Mesterséges intelligencia alapok</targy>
+    <idopont>
+      <nap>Szerda</nap>
+      <tol>10:00</tol>
+      <ig>12:00</ig>
+    </idopont>
+    <helyszin>10-es előadó</helyszin>
+    <oktato>Fazekas Levente</oktato>
+    <oraado>Nagy János</oraado>
+    <szak>Gazdaságinformatikus</szak>
+  </ora>
+
+  <ora id="1" tipus="gyakorlat">
+    <targy>Vállalati információs rendszerek</targy>
+    <idopont>
+      <nap>Szerda</nap>
+      <tol>14:00</tol>
+      <ig>16:00</ig>
+    </idopont>
+    <helyszin>IT épület, 103-es terem</helyszin>
+    <oktato>Dr. Sasvári Péter</oktato>
+    <oraado>Nagy János</oraado>
+    <szak>Gazdaságinformatikus</szak>
+  </ora>
+
+  <ora id="1" tipus="előadás">
+    <targy>Mesterséges intelligencia alapok</targy>
+    <idopont>
+      <nap>Szerda</nap>
+      <tol>16:00</tol>
+      <ig>18:00</ig>
+    </idopont>
+    <helyszin>32-es előadó</helyszin>
+    <oktato>Fazekas Levente</oktato>
+    <oraado>Nagy János</oraado>
+    <szak>Gazdaságinformatikus</szak>
+  </ora>
+
+  <ora id="1" tipus="előadás">
+    <targy>Vállalati információs rendszerek</targy>
+    <idopont>
+      <nap>Szerda</nap>
+      <tol>18:00</tol>
+      <ig>20:00</ig>
+    </idopont>
+    <helyszin>IT épület, 103-es terem</helyszin>
+    <oktato>Dr. Sasvári Péter</oktato>
+    <oraado>Nagy János</oraado>
+    <szak>Gazdaságinformatikus</szak>
+  </ora>
+</CsoreMargareta_orarend>
