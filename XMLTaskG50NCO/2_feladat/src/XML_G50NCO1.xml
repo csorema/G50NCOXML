@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<employees>
+    <employee id="E001" work="R001">
+        <fullName>Margaréta</fullName>
+        <medicalNumber>M123</medicalNumber>
+        <bankAccountNumber>ABC123456</bankAccountNumber>
+        <dateOfBirth>2001-06-30</dateOfBirth>
+        <isLeader>No</isLeader>
+    </employee>
+</employees>
