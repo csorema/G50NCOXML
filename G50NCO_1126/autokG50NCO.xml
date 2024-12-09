@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="autokG50NCO.xsl"?>
+
+<autok>
+    <auto rsz="ABC-100">
+        <tipus> Fiat </tipus>
+        <ar> 21233 </ar>
+        <szin> piros </szin>
+        <tulaj>
+            <nev> Zoli </nev>
+            <varos> Eger </varos>
+        </tulaj>
+    </auto>
+
+    <autok>
+    <auto rsz="ABC-101">
+        <tipus> Skoda </tipus>
+        <ar> 44233 </ar>
+        <szin> fehér </szin>
+        <tulaj>
+            <nev> Peti </nev>
+            <varos> Miskolc </varos>
+        </tulaj>
+    </auto>
+
+    <autok>
+    <auto rsz="ABC-102">
+        <tipus> Opel </tipus>
+        <ar> 31233 </ar>
+        <szin> szurke </szin>
+        <tulaj>
+            <nev> Tomi </nev>
+            <varos> Miskolc </varos>
+        </tulaj>
+    </auto>
+
+    <autok>
+    <auto rsz="ABC-103">
+        <tipus> Opel </tipus>
+        <ar> 21233 </ar>
+        <szin> Kék </szin>
+        <tulaj>
+            <nev> Laci </nev>
+            <varos> Miskolc </varos>
+        </tulaj>
+    </auto>

@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <title>Diákok adatai</title>
+    <style>
+                    table {
+                        border-collapse: collapse;
+                        width: 80%;
+                        margin: auto;
+                    }
+                    th, td {
+                        border: 1px solid black;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                    th {
+                        background-color: #f2f2f2;
+                    }
+                    caption {
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                    }
+                </style>
+  </head>
+  <body>
+    <table>
+      <caption>Diákok adatai</caption>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Vezetéknév</th>
+          <th>Keresztnév</th>
+          <th>Becenév</th>
+          <th>Kor</th>
+          <th>Ösztöndíj</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01</td>
+          <td>Csőre</td>
+          <td>Margaréta</td>
+          <td>Margi</td>
+          <td>23</td>
+          <td>600000</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Baffi</td>
+          <td>Réka</td>
+          <td>Réka</td>
+          <td>22</td>
+          <td>520000</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Gáspár</td>
+          <td>Fanni</td>
+          <td>Fanni</td>
+          <td>22</td>
+          <td>450000</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

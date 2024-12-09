@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="orarendG50NCO.xsl"?>
+
+
+<CSM_orarend>
+    <ora id="01" tipus="eloadas">
+        <targy>XML</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>Inf/103.</helyszin>
+        <oktato>Bednarik László</oktato>
+        <szak>Gazdaságinformatikus</szak>
+        <oraado>XY</oraado>
+    </ora>
+    <ora id="02" tipus="gyakorlat">
+        <targy>XML</targy>
+        <idopont>
+            <nap>Kedd</nap>
+            <tol>12:00</tol>
+            <ig>14:00</ig>
+        </idopont>
+        <helyszin>Inf/103.</helyszin>
+        <oktato>Bednarik László</oktato>
+        <szak>Gazdaságinformatikus</szak>
+        <oraado>XY</oraado>
+
+    </ora>
+    <ora id="03" tipus="gyakorlat">
+        <targy>Mesint</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>10:00</tol>
+            <ig>12:00</ig>
+        </idopont>
+        <helyszin>X.Előadó</helyszin>
+        <oktato>Fazekas Levente</oktato>
+        <szak>Gazdaságinformatikus</szak>
+        <oraado>XY</oraado>
+    </ora>
+    <ora id="04" tipus="eloadas">
+        <targy>Vállalati</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>14:00</tol>
+            <ig>16:00</ig>
+        </idopont>
+        <helyszin>Inf/103.</helyszin>
+        <oktato>Sasvári Péter</oktato>
+        <szak>Gazdaságinformatikus</szak>
+        <oraado>XY</oraado>
+    </ora>
+    <ora id="05" tipus="eloadas">
+        <targy>Mesint</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>16:00</tol>
+            <ig>18:00</ig>
+        </idopont>
+        <helyszin>XXXII.Előadó</helyszin>
+        <oktato>Fazekas Levente</oktato>
+        <szak>Gazdaságinformatikus</szak>
+        <oraado>XY</oraado>
+    </ora>
+    <ora id="06" tipus="gyakorlat">
+        <targy>Vállalati</targy>
+        <idopont>
+            <nap>Szerda</nap>
+            <tol>18:00</tol>
+            <ig>20:00</ig>
+        </idopont>
+        <helyszin>Inf/103.</helyszin>
+        <oktato>Sasvári Péter</oktato>
+        <szak>Gazdaságinformatikus</szak>
+        <oraado>XY</oraado>
+    </ora>
+</CSM_orarend>
