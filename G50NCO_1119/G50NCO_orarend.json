@@ -1,0 +1,88 @@
+{
+    "CSM_orarend": [
+      {
+        "id": "01",
+        "tipus": "eloadas",
+        "targy": "XML",
+        "idopont": {
+          "nap": "Kedd",
+          "tol": "10:00",
+          "ig": "12:00"
+        },
+        "helyszin": "Inf/103.",
+        "oktato": "Bednarik László",
+        "szak": "Gazdaságinformatikus",
+        "oraado": "XY"
+      },
+      {
+        "id": "02",
+        "tipus": "gyakorlat",
+        "targy": "XML",
+        "idopont": {
+          "nap": "Kedd",
+          "tol": "12:00",
+          "ig": "14:00"
+        },
+        "helyszin": "Inf/103.",
+        "oktato": "Bednarik László",
+        "szak": "Gazdaságinformatikus",
+        "oraado": "XY"
+      },
+      {
+        "id": "03",
+        "tipus": "gyakorlat",
+        "targy": "Mesint",
+        "idopont": {
+          "nap": "Szerda",
+          "tol": "10:00",
+          "ig": "12:00"
+        },
+        "helyszin": "X.Előadó",
+        "oktato": "Fazekas Levente",
+        "szak": "Gazdaságinformatikus",
+        "oraado": "XY"
+      },
+      {
+        "id": "04",
+        "tipus": "eloadas",
+        "targy": "Vállalati",
+        "idopont": {
+          "nap": "Szerda",
+          "tol": "14:00",
+          "ig": "16:00"
+        },
+        "helyszin": "Inf/103.",
+        "oktato": "Sasvári Péter",
+        "szak": "Gazdaságinformatikus",
+        "oraado": "XY"
+      },
+      {
+        "id": "05",
+        "tipus": "eloadas",
+        "targy": "Mesint",
+        "idopont": {
+          "nap": "Szerda",
+          "tol": "16:00",
+          "ig": "18:00"
+        },
+        "helyszin": "XXXII.Előadó",
+        "oktato": "Fazekas Levente",
+        "szak": "Gazdaságinformatikus",
+        "oraado": "XY"
+      },
+      {
+        "id": "06",
+        "tipus": "gyakorlat",
+        "targy": "Vállalati",
+        "idopont": {
+          "nap": "Szerda",
+          "tol": "18:00",
+          "ig": "20:00"
+        },
+        "helyszin": "Inf/103.",
+        "oktato": "Sasvári Péter",
+        "szak": "Gazdaságinformatikus",
+        "oraado": "XY"
+      }
+    ]
+  }

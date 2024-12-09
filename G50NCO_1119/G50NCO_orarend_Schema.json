@@ -1,0 +1,58 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "CSM_orarend": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string",
+              "pattern": "^[0-9]{2}$"
+            },
+            "tipus": {
+              "type": "string",
+              "enum": ["eloadas", "gyakorlat"]
+            },
+            "targy": {
+              "type": "string"
+            },
+            "idopont": {
+              "type": "object",
+              "properties": {
+                "nap": {
+                  "type": "string",
+                  "enum": ["Hétfő", "Kedd", "Szerda", "Csütörtök", "Péntek", "Szombat", "Vasárnap"]
+                },
+                "tol": {
+                  "type": "string",
+                  "pattern": "^([01]?[0-9]|2[0-3]):[0-5][0-9]$"
+                },
+                "ig": {
+                  "type": "string",
+                  "pattern": "^([01]?[0-9]|2[0-3]):[0-5][0-9]$"
+                }
+              },
+              "required": ["nap", "tol", "ig"]
+            },
+            "helyszin": {
+              "type": "string"
+            },
+            "oktato": {
+              "type": "string"
+            },
+            "szak": {
+              "type": "string"
+            },
+            "oraado": {
+              "type": "string"
+            }
+          },
+          "required": ["id", "tipus", "targy", "idopont", "helyszin", "oktato", "szak", "oraado"]
+        }
+      }
+    },
+    "required": ["CSM_orarend"]
+  }
+  
