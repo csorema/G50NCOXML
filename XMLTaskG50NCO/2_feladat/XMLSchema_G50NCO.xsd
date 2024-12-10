@@ -1,0 +1,204 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+    <!--Egyszerű elemek-->
+
+    <xs:element name="name" type="xs:string" />
+    <xs:element name="phoneNumber" type="phoneType" />
+    <xs:element name="postalCode" type="xs:int" />
+    <xs:element name="street" type="xs:string" />
+    <xs:element name="houseNumber" type="xs:int" />
+
+    <xs:element name="fullName" type="xs:string" />
+    <xs:element name="medicalNumber" type="xs:string" />
+    <xs:element name="bankAccountNumber" type="xs:string" />
+    <xs:element name="dateOfBirth" type="timeType" />
+    <xs:element name="isLeader" type="isLeader" />
+
+    <xs:element name="price" type="xs:int" />
+    <xs:element name="orderDate" type="timeType" />
+    <xs:element name="status" type="statusType" />
+
+    <xs:element name="type" type="xs:string" />
+    <xs:element name="ingredient" type="xs:string" />
+    <xs:element name="idotartam" type="xs:int" />
+
+    <xs:element name="email" type="emailType" />
+
+    <!--Saját típusok-->
+
+    <xs:simpleType name="isLeader">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Yes" />
+            <xs:enumeration value="No" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="statusType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Active" />
+            <xs:enumeration value="Shipped" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="phoneType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(06(20|30|31|50|60|70)\d{7})"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="timeType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([12]\d{3}.(0[1-9]|1[0-2]).(0[1-9]|[12]\d|3[01]))" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="emailType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[\w\.]+@([\w]+\.)+[\w]{2,4}" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!--Felépítés-->
+
+    <xs:element name="Restaurants_VN7XCW">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="restaurant" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="name" />
+                            <xs:element ref="phoneNumber" />
+                            <xs:element name="address" minOccurs="1" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element ref="postalCode" />
+                                        <xs:element ref="street" />
+                                        <xs:element ref="houseNumber" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element> 
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="employee" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="fullName" />
+                            <xs:element ref="medicalNumber" />
+                            <xs:element ref="bankAccountNumber" />
+                            <xs:element ref="dateOfBirth" />
+                            <xs:element ref="isLeader" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" />
+                        <xs:attribute name="work" type="xs:string" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="order" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="price" />
+                            <xs:element ref="orderDate" />
+                            <xs:element ref="status" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" />
+                        <xs:attribute name="deliverOrder" type="xs:string" />
+                        <xs:attribute name="ordered" type="xs:string" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="product" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="name" />
+                            <xs:element ref="type" />
+                            <xs:element ref="ingredient" minOccurs="1" maxOccurs="unbounded" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="customer" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="fullName" />
+                            <xs:element ref="email" />
+                            <xs:element ref="phoneNumber" />
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" />
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="which_product" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="price" />
+                        </xs:sequence>
+                        <xs:attribute name="product_id" type="xs:string" />
+                        <xs:attribute name="order_id" type="xs:string" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+
+        <!--Kulcsok-->
+
+        <xs:key name="restaurant_kulcs">
+            <xs:selector xpath="restaurant" />
+            <xs:field xpath="@id" />
+        </xs:key>
+
+        <xs:key name="employee_kulcs">
+            <xs:selector xpath="employee" />
+            <xs:field xpath="@id" />
+        </xs:key>
+
+        <xs:key name="order_kulcs">
+            <xs:selector xpath="order" />
+            <xs:field xpath="@id" />
+        </xs:key>
+
+        <xs:key name="product_kulcs">
+            <xs:selector xpath="product" />
+            <xs:field xpath="@id" />
+        </xs:key>
+
+        <xs:key name="customer_kulcs">
+            <xs:selector xpath="customer" />
+            <xs:field xpath="@id" />
+        </xs:key>
+
+        <!--Idegen kulcsok-->
+
+        <xs:keyref refer="restaurant_kulcs" name="employee_idegen_kulcs">
+            <xs:selector xpath="employee" />
+            <xs:field xpath="@work" />
+        </xs:keyref>
+
+        <xs:keyref refer="restaurant_kulcs" name="order_restaurant_idgen_kulcs">
+            <xs:selector xpath="order" />
+            <xs:field xpath="@deliverOrder" />
+        </xs:keyref>
+
+        <xs:keyref refer="customer_kulcs" name="order_customer_idegen_kulcs">
+            <xs:selector xpath="order" />
+            <xs:field xpath="@ordered" />
+        </xs:keyref>
+
+        <xs:keyref refer="product_kulcs" name="which_product_product_idgen_kulcs">
+            <xs:selector xpath="which_product" />
+            <xs:field xpath="@product_id" />
+        </xs:keyref>
+
+        <xs:keyref refer="order_kulcs" name="which_product_order_idgen_kulcs">
+            <xs:selector xpath="which_product" />
+            <xs:field xpath="@order_id" />
+        </xs:keyref>
+
+        <!--1:1-->
+
+        <xs:unique name="unique_order">
+            <xs:selector xpath="order" />
+            <xs:field xpath="@ordered" />
+        </xs:unique>
+
+    </xs:element>
+
+</xs:schema>
