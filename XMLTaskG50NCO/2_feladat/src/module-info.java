@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module DOMParseG50NCO {
-}
